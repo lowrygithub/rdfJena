@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Sun Mar 22 11:52:29 CST 2015
+onejar.license.required=true
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=jena_query.jar
+manifest.mergeall=true
+manifest.mainclass=query.TestQuery
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=<po|rdfJena>~jena/;<po|rdfJena>~ontology/;<po|rdfJena>~rdfJena/;<po|rdfJena>~semanticwebprogramming/;<po|rdfJena>~src-examples/;<po|rdfJena>~Analysis.class;<po|rdfJena>~animal;<po|rdfJena>~BasicInfo.class
+includes=

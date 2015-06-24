@@ -1,0 +1,12 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+    xmlns:TSEG="http://bupt/ComputerScience/tseg#" > 
+  <rdf:Description rdf:about="http://bupt/ComputerScience/tseg#likeran">
+    <vcard:FN>likeran</vcard:FN>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bupt/ComputerScience/tseg#wubin">
+    <TSEG:is_friend rdf:resource="http://bupt/ComputerScience/tseg#likeran"/>
+    <vcard:FN>wubin</vcard:FN>
+  </rdf:Description>
+</rdf:RDF>
